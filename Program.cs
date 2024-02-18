@@ -18,3 +18,6 @@ foreach (string str in Array)
         index++;
     }
 }
+
+Console.WriteLine("Исходный массив: [{0}]", string.Join(", ", Array));
+Console.WriteLine("Новый массив: [{0}]", string.Join(", ", NewArray));
